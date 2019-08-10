@@ -1,17 +1,20 @@
 
-import React, { Component} from "react";
-// import "./App.css";
 
-//TODO refactor to functional react component
-//because its for react hooks 
-class App extends Component{
-  render(){
-    return(
+import React from 'react';
+
+let Welcome = props => {
+    return <h1>Hey {props.name} Automating Shifts For Your Organization Like No Other</h1>
+}
+
+const App = () => {
+    return (
       <div className="App">
-        <h1> Hello, World! </h1>
+        <Welcome name="Adam" />
+        <Welcome name="Steve" />
+        <Welcome name="Jib" />
       </div>
     );
-  }
 }
+
 
 export default App;
