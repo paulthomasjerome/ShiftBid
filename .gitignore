@@ -1,7 +1,5 @@
 node_modules
 
-.yo-rc.json
+/dist/index.html
 
-.babelrc
-
-webpack.config.js
+/src/App.css
