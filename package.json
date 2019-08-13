@@ -17,6 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
+    "prop-types": "^15.7.2",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
