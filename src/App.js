@@ -28,7 +28,7 @@ const Login = styled.form`
   padding: 3rem;
 `;
 
-const MainLogin = () => {
+function MainLogin() {
   return (
     <LoginWrapper>
         <Welcome>Login</Welcome>
@@ -40,7 +40,7 @@ const MainLogin = () => {
   );
 }
 
-const About = () => {
+function About() {
   return (
     <LoginWrapper>
       <Welcome>What is ShiftBid?</Welcome>
@@ -49,7 +49,7 @@ const About = () => {
 }
 
 //this is the "component" that i pass to reactDOM's render
-const App = () => {
+function App() {
   return (
     <div className="App">
     <MainLogin className="App"></MainLogin>
