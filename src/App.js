@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-//dynamic?
 const Welcome = styled.h1`
   font-size: 3rem;
 `;
@@ -51,15 +50,12 @@ const About = () => {
 
 //this is the "component" that i pass to reactDOM's render
 const App = () => {
-    return (
-      <div className="App">
-      <MainLogin className="App"></MainLogin>
-      <About></About>
-      </div>
-    );
-    
+  return (
+    <div className="App">
+    <MainLogin className="App"></MainLogin>
+    <About></About>
+    </div>
+  );
 }
-
-
 
 export default App;
