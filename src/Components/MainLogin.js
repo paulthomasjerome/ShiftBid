@@ -6,15 +6,15 @@ const LoginWelcome = styled.h1`
 `;
 
 const LoginWrapper = styled.div`
-align-items: center;
-background-color: white;
-box-shadow: 4px 8px 12px 2px lightgrey;
-border: ridge 1px lightblue;
-border-radius: 1rem;
-display: flex;
-flex-direction: column;
-margin: 2rem auto;
-width: 85vw;
+  align-items: center;
+  background-color: white;
+  box-shadow: 4px 8px 12px 2px black;
+  border: ridge 1px black;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 90vw;
 `;
 
 const LoginButton = styled.button`
@@ -25,16 +25,19 @@ const LoginButton = styled.button`
 `;
 
 const LoginForm = styled.form`
-  padding: 3rem;
+  margin: 3rem;
 `;
 
 function MainLogin() {
   return (
     <LoginWrapper>
       <LoginWelcome>Login</LoginWelcome>
-        <LoginForm>
-          <input type="text"></input>
-          <LoginButton>Login</LoginButton>
+      <LoginForm>
+        <input type="text"></input>
+        <input type="text"></input>
+        <LoginButton>
+          Login
+        </LoginButton>
       </LoginForm>
     </LoginWrapper>
   );
