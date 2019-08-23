@@ -22,7 +22,9 @@ const ShiftWrapper = styled.div`
 function ShiftItem() {
   return (
     <ShiftWrapper>
-      <Shift>Data</Shift>
+      <Shift>
+        Data
+      </Shift>
     </ShiftWrapper>
   );
 }

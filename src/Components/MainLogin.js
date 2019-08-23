@@ -31,7 +31,9 @@ const LoginForm = styled.form`
 function MainLogin() {
   return (
     <LoginWrapper>
-      <LoginWelcome>Login</LoginWelcome>
+      <LoginWelcome>
+        Login
+      </LoginWelcome>
       <LoginForm>
         <input type="text"></input>
         <input type="text"></input>
@@ -43,4 +45,4 @@ function MainLogin() {
   );
 }
 
-  export default MainLogin;
+export default MainLogin;
